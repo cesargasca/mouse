@@ -1,16 +1,16 @@
 # Import required modules
 import pyautogui
 import time
-  
-# FAILSAFE to FALSE feature is enabled by default 
-# so that you can easily stop execution of 
-# your pyautogui program by manually moving the 
-# mouse to the upper left corner of the screen. 
+
+# FAILSAFE to FALSE feature is enabled by default
+# so that you can easily stop execution of
+# your pyautogui program by manually moving the
+# mouse to the upper left corner of the screen.
 # Once the mouse is in this location,
 # pyautogui will throw an exception and exit.
 pyautogui.FAILSAFE = False
-  
-# We want to run this code for infinite 
+
+# We want to run this code for infinite
 # time till we stop it so we use infinite loop now
 while True:
     
